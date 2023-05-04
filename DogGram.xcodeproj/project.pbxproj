@@ -11,6 +11,20 @@
 		52567FEE2A0246B6004C5FFB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52567FED2A0246B6004C5FFB /* ContentView.swift */; };
 		52567FF02A0246B8004C5FFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52567FEF2A0246B8004C5FFB /* Assets.xcassets */; };
 		52567FF32A0246B8004C5FFB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52567FF22A0246B8004C5FFB /* Preview Assets.xcassets */; };
+		52567FFA2A025C05004C5FFB /* Launch.Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52567FF92A025C05004C5FFB /* Launch.Screen.storyboard */; };
+		525680002A027581004C5FFB /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52567FFF2A027581004C5FFB /* Extensions.swift */; };
+		525680022A027685004C5FFB /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525680012A027685004C5FFB /* FeedView.swift */; };
+		525680042A027757004C5FFB /* PostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525680032A027757004C5FFB /* PostView.swift */; };
+		525680072A02801B004C5FFB /* PostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525680062A02801B004C5FFB /* PostModel.swift */; };
+		525680092A02C59E004C5FFB /* PostArrayObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525680082A02C59E004C5FFB /* PostArrayObject.swift */; };
+		5256800D2A02E28F004C5FFB /* CommentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5256800C2A02E28F004C5FFB /* CommentsView.swift */; };
+		5256800F2A02F2DC004C5FFB /* MessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5256800E2A02F2DC004C5FFB /* MessageView.swift */; };
+		525680112A02F954004C5FFB /* CommentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525680102A02F954004C5FFB /* CommentModel.swift */; };
+		525680132A039712004C5FFB /* BrowseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525680122A039712004C5FFB /* BrowseView.swift */; };
+		525680152A0399BB004C5FFB /* CarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525680142A0399BB004C5FFB /* CarouselView.swift */; };
+		525680172A03A9DA004C5FFB /* ImageGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525680162A03A9DA004C5FFB /* ImageGridView.swift */; };
+		525680192A03C8A6004C5FFB /* UploadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525680182A03C8A6004C5FFB /* UploadView.swift */; };
+		5256801B2A03EF6C004C5FFB /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5256801A2A03EF6C004C5FFB /* ImagePicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +33,20 @@
 		52567FED2A0246B6004C5FFB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		52567FEF2A0246B8004C5FFB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52567FF22A0246B8004C5FFB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		52567FF92A025C05004C5FFB /* Launch.Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Launch.Screen.storyboard; sourceTree = "<group>"; };
+		52567FFF2A027581004C5FFB /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		525680012A027685004C5FFB /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
+		525680032A027757004C5FFB /* PostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostView.swift; sourceTree = "<group>"; };
+		525680062A02801B004C5FFB /* PostModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostModel.swift; sourceTree = "<group>"; };
+		525680082A02C59E004C5FFB /* PostArrayObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostArrayObject.swift; sourceTree = "<group>"; };
+		5256800C2A02E28F004C5FFB /* CommentsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsView.swift; sourceTree = "<group>"; };
+		5256800E2A02F2DC004C5FFB /* MessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageView.swift; sourceTree = "<group>"; };
+		525680102A02F954004C5FFB /* CommentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentModel.swift; sourceTree = "<group>"; };
+		525680122A039712004C5FFB /* BrowseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowseView.swift; sourceTree = "<group>"; };
+		525680142A0399BB004C5FFB /* CarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselView.swift; sourceTree = "<group>"; };
+		525680162A03A9DA004C5FFB /* ImageGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageGridView.swift; sourceTree = "<group>"; };
+		525680182A03C8A6004C5FFB /* UploadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadView.swift; sourceTree = "<group>"; };
+		5256801A2A03EF6C004C5FFB /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +79,10 @@
 		52567FEA2A0246B6004C5FFB /* DogGram */ = {
 			isa = PBXGroup;
 			children = (
-				52567FEB2A0246B6004C5FFB /* DogGramApp.swift */,
-				52567FED2A0246B6004C5FFB /* ContentView.swift */,
+				525680052A02800A004C5FFB /* Model */,
+				52567FFE2A02756A004C5FFB /* Helpers */,
+				52567FFB2A02672C004C5FFB /* Views */,
+				52567FF92A025C05004C5FFB /* Launch.Screen.storyboard */,
 				52567FEF2A0246B8004C5FFB /* Assets.xcassets */,
 				52567FF12A0246B8004C5FFB /* Preview Content */,
 			);
@@ -65,6 +95,58 @@
 				52567FF22A0246B8004C5FFB /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		52567FFB2A02672C004C5FFB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				52567FFD2A026741004C5FFB /* Subviews */,
+				52567FFC2A026737004C5FFB /* Screens */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		52567FFC2A026737004C5FFB /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				52567FED2A0246B6004C5FFB /* ContentView.swift */,
+				52567FEB2A0246B6004C5FFB /* DogGramApp.swift */,
+				5256800C2A02E28F004C5FFB /* CommentsView.swift */,
+				525680122A039712004C5FFB /* BrowseView.swift */,
+				525680012A027685004C5FFB /* FeedView.swift */,
+				525680182A03C8A6004C5FFB /* UploadView.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		52567FFD2A026741004C5FFB /* Subviews */ = {
+			isa = PBXGroup;
+			children = (
+				525680032A027757004C5FFB /* PostView.swift */,
+				5256800E2A02F2DC004C5FFB /* MessageView.swift */,
+				525680142A0399BB004C5FFB /* CarouselView.swift */,
+				525680162A03A9DA004C5FFB /* ImageGridView.swift */,
+				5256801A2A03EF6C004C5FFB /* ImagePicker.swift */,
+			);
+			path = Subviews;
+			sourceTree = "<group>";
+		};
+		52567FFE2A02756A004C5FFB /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				52567FFF2A027581004C5FFB /* Extensions.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		525680052A02800A004C5FFB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				525680062A02801B004C5FFB /* PostModel.swift */,
+				525680082A02C59E004C5FFB /* PostArrayObject.swift */,
+				525680102A02F954004C5FFB /* CommentModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +207,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52567FFA2A025C05004C5FFB /* Launch.Screen.storyboard in Resources */,
 				52567FF32A0246B8004C5FFB /* Preview Assets.xcassets in Resources */,
 				52567FF02A0246B8004C5FFB /* Assets.xcassets in Resources */,
 			);
@@ -137,7 +220,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				525680022A027685004C5FFB /* FeedView.swift in Sources */,
+				525680072A02801B004C5FFB /* PostModel.swift in Sources */,
 				52567FEE2A0246B6004C5FFB /* ContentView.swift in Sources */,
+				5256800F2A02F2DC004C5FFB /* MessageView.swift in Sources */,
+				525680002A027581004C5FFB /* Extensions.swift in Sources */,
+				525680092A02C59E004C5FFB /* PostArrayObject.swift in Sources */,
+				525680042A027757004C5FFB /* PostView.swift in Sources */,
+				525680132A039712004C5FFB /* BrowseView.swift in Sources */,
+				525680112A02F954004C5FFB /* CommentModel.swift in Sources */,
+				525680172A03A9DA004C5FFB /* ImageGridView.swift in Sources */,
+				5256800D2A02E28F004C5FFB /* CommentsView.swift in Sources */,
+				525680192A03C8A6004C5FFB /* UploadView.swift in Sources */,
+				5256801B2A03EF6C004C5FFB /* ImagePicker.swift in Sources */,
+				525680152A0399BB004C5FFB /* CarouselView.swift in Sources */,
 				52567FEC2A0246B6004C5FFB /* DogGramApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -273,6 +369,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = Launch.Screen.storyboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -302,6 +399,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = Launch.Screen.storyboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
