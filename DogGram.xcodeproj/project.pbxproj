@@ -25,6 +25,19 @@
 		525680172A03A9DA004C5FFB /* ImageGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525680162A03A9DA004C5FFB /* ImageGridView.swift */; };
 		525680192A03C8A6004C5FFB /* UploadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525680182A03C8A6004C5FFB /* UploadView.swift */; };
 		5256801B2A03EF6C004C5FFB /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5256801A2A03EF6C004C5FFB /* ImagePicker.swift */; };
+		5256801D2A042A13004C5FFB /* PostImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5256801C2A042A13004C5FFB /* PostImageView.swift */; };
+		52AF304C2A051F1D00E8EC59 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AF304B2A051F1D00E8EC59 /* ProfileView.swift */; };
+		52AF304E2A05233D00E8EC59 /* ProfileHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AF304D2A05233D00E8EC59 /* ProfileHeaderView.swift */; };
+		52AF30502A0543E100E8EC59 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AF304F2A0543E100E8EC59 /* SettingsView.swift */; };
+		52AF30522A0549F100E8EC59 /* SettingsLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AF30512A0549F100E8EC59 /* SettingsLabelView.swift */; };
+		52AF30542A054EC900E8EC59 /* SettingsRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AF30532A054EC900E8EC59 /* SettingsRowView.swift */; };
+		52AF30562A054F0D00E8EC59 /* SettingsEditTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AF30552A054F0D00E8EC59 /* SettingsEditTextView.swift */; };
+		52AF30582A054F2B00E8EC59 /* SettingsEditImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AF30572A054F2B00E8EC59 /* SettingsEditImageView.swift */; };
+		52F905BE2A0658F100FB4777 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F905BD2A0658F100FB4777 /* SignUpView.swift */; };
+		52F905C02A0665DE00FB4777 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F905BF2A0665DE00FB4777 /* OnboardingView.swift */; };
+		52F905C22A066AD900FB4777 /* SignInWithAppleButtonCustom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F905C12A066AD900FB4777 /* SignInWithAppleButtonCustom.swift */; };
+		52F905C42A066ECA00FB4777 /* OnboardingViewPart2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F905C32A066ECA00FB4777 /* OnboardingViewPart2.swift */; };
+		52F905C62A06ADDE00FB4777 /* LikeAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F905C52A06ADDE00FB4777 /* LikeAnimationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +60,19 @@
 		525680162A03A9DA004C5FFB /* ImageGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageGridView.swift; sourceTree = "<group>"; };
 		525680182A03C8A6004C5FFB /* UploadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadView.swift; sourceTree = "<group>"; };
 		5256801A2A03EF6C004C5FFB /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		5256801C2A042A13004C5FFB /* PostImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostImageView.swift; sourceTree = "<group>"; };
+		52AF304B2A051F1D00E8EC59 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		52AF304D2A05233D00E8EC59 /* ProfileHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHeaderView.swift; sourceTree = "<group>"; };
+		52AF304F2A0543E100E8EC59 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		52AF30512A0549F100E8EC59 /* SettingsLabelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsLabelView.swift; sourceTree = "<group>"; };
+		52AF30532A054EC900E8EC59 /* SettingsRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsRowView.swift; sourceTree = "<group>"; };
+		52AF30552A054F0D00E8EC59 /* SettingsEditTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsEditTextView.swift; sourceTree = "<group>"; };
+		52AF30572A054F2B00E8EC59 /* SettingsEditImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsEditImageView.swift; sourceTree = "<group>"; };
+		52F905BD2A0658F100FB4777 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		52F905BF2A0665DE00FB4777 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		52F905C12A066AD900FB4777 /* SignInWithAppleButtonCustom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInWithAppleButtonCustom.swift; sourceTree = "<group>"; };
+		52F905C32A066ECA00FB4777 /* OnboardingViewPart2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewPart2.swift; sourceTree = "<group>"; };
+		52F905C52A06ADDE00FB4777 /* LikeAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikeAnimationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,8 +139,16 @@
 				52567FEB2A0246B6004C5FFB /* DogGramApp.swift */,
 				5256800C2A02E28F004C5FFB /* CommentsView.swift */,
 				525680122A039712004C5FFB /* BrowseView.swift */,
+				52AF304B2A051F1D00E8EC59 /* ProfileView.swift */,
+				52F905BD2A0658F100FB4777 /* SignUpView.swift */,
+				52F905BF2A0665DE00FB4777 /* OnboardingView.swift */,
+				52F905C32A066ECA00FB4777 /* OnboardingViewPart2.swift */,
 				525680012A027685004C5FFB /* FeedView.swift */,
 				525680182A03C8A6004C5FFB /* UploadView.swift */,
+				5256801C2A042A13004C5FFB /* PostImageView.swift */,
+				52AF304F2A0543E100E8EC59 /* SettingsView.swift */,
+				52AF30572A054F2B00E8EC59 /* SettingsEditImageView.swift */,
+				52AF30552A054F0D00E8EC59 /* SettingsEditTextView.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -123,10 +157,15 @@
 			isa = PBXGroup;
 			children = (
 				525680032A027757004C5FFB /* PostView.swift */,
+				52F905C12A066AD900FB4777 /* SignInWithAppleButtonCustom.swift */,
+				52F905C52A06ADDE00FB4777 /* LikeAnimationView.swift */,
 				5256800E2A02F2DC004C5FFB /* MessageView.swift */,
 				525680142A0399BB004C5FFB /* CarouselView.swift */,
 				525680162A03A9DA004C5FFB /* ImageGridView.swift */,
 				5256801A2A03EF6C004C5FFB /* ImagePicker.swift */,
+				52AF304D2A05233D00E8EC59 /* ProfileHeaderView.swift */,
+				52AF30512A0549F100E8EC59 /* SettingsLabelView.swift */,
+				52AF30532A054EC900E8EC59 /* SettingsRowView.swift */,
 			);
 			path = Subviews;
 			sourceTree = "<group>";
@@ -221,20 +260,33 @@
 			buildActionMask = 2147483647;
 			files = (
 				525680022A027685004C5FFB /* FeedView.swift in Sources */,
+				52F905C22A066AD900FB4777 /* SignInWithAppleButtonCustom.swift in Sources */,
 				525680072A02801B004C5FFB /* PostModel.swift in Sources */,
+				52AF30522A0549F100E8EC59 /* SettingsLabelView.swift in Sources */,
+				5256801D2A042A13004C5FFB /* PostImageView.swift in Sources */,
+				52F905BE2A0658F100FB4777 /* SignUpView.swift in Sources */,
 				52567FEE2A0246B6004C5FFB /* ContentView.swift in Sources */,
 				5256800F2A02F2DC004C5FFB /* MessageView.swift in Sources */,
 				525680002A027581004C5FFB /* Extensions.swift in Sources */,
 				525680092A02C59E004C5FFB /* PostArrayObject.swift in Sources */,
 				525680042A027757004C5FFB /* PostView.swift in Sources */,
 				525680132A039712004C5FFB /* BrowseView.swift in Sources */,
+				52AF304C2A051F1D00E8EC59 /* ProfileView.swift in Sources */,
 				525680112A02F954004C5FFB /* CommentModel.swift in Sources */,
+				52F905C62A06ADDE00FB4777 /* LikeAnimationView.swift in Sources */,
 				525680172A03A9DA004C5FFB /* ImageGridView.swift in Sources */,
+				52AF30582A054F2B00E8EC59 /* SettingsEditImageView.swift in Sources */,
 				5256800D2A02E28F004C5FFB /* CommentsView.swift in Sources */,
+				52AF304E2A05233D00E8EC59 /* ProfileHeaderView.swift in Sources */,
 				525680192A03C8A6004C5FFB /* UploadView.swift in Sources */,
+				52F905C02A0665DE00FB4777 /* OnboardingView.swift in Sources */,
 				5256801B2A03EF6C004C5FFB /* ImagePicker.swift in Sources */,
 				525680152A0399BB004C5FFB /* CarouselView.swift in Sources */,
 				52567FEC2A0246B6004C5FFB /* DogGramApp.swift in Sources */,
+				52AF30502A0543E100E8EC59 /* SettingsView.swift in Sources */,
+				52AF30562A054F0D00E8EC59 /* SettingsEditTextView.swift in Sources */,
+				52F905C42A066ECA00FB4777 /* OnboardingViewPart2.swift in Sources */,
+				52AF30542A054EC900E8EC59 /* SettingsRowView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -366,6 +418,8 @@
 				DEVELOPMENT_TEAM = SD67P42M35;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app uses the camera at the user's request to take a photo";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "This allows the app to access the photo library to import or save a photo at the user's request.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -396,6 +450,8 @@
 				DEVELOPMENT_TEAM = SD67P42M35;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app uses the camera at the user's request to take a photo";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "This allows the app to access the photo library to import or save a photo at the user's request.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
