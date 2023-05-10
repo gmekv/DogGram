@@ -9,8 +9,12 @@ import SwiftUI
 struct OnboardingViewPart2: View {
     
     @Environment(\.colorScheme) var colorScheme
-    
-    @State var displayName: String = ""
+    @Environment(\.presentationMode) var presentationMode
+    @Binding var displayName: String
+    @Binding var email: String
+    @Binding var providerID: String
+    @Binding var provider: String
+    @State var showError: Bool = false
     @State var showImagePicker: Bool = false
     
     // For image picker
@@ -47,6 +51,8 @@ struct OnboardingViewPart2: View {
                     .background(Color.MyTheme.yellowColor)
                     .cornerRadius(12)
                     .padding(.horizontal)
+                    .foregroundColor(.clear)
+
             })
             .accentColor(Color.MyTheme.purpleColor)
             .opacity(displayName != "" ? 1.0 : 0.0)
@@ -60,13 +66,40 @@ struct OnboardingViewPart2: View {
         .sheet(isPresented: $showImagePicker, onDismiss: createProfile, content: {
             ImagePicker(imageSelected: $imageSelected, sourceType: $sourceType)
         })
-        
+        .alert(isPresented: $showError) {
+            () -> Alert in return Alert(title: Text("Error Creating profile"))
+        }
     }
     
     // MARK: FUNCTIONS
     
     func createProfile() {
         print("CREATE PROFILE NOW")
+        AuthService.instance.CreateNewUserInDatabase(name: displayName, email: email, providerID: providerID, provider: provider, profileImage: imageSelected) { (returnedUserID) in
+            if let userID = returnedUserID {
+                //success
+                print("Sucessfully created new user into a database ")
+                AuthService.instance.logInUserToApp(userID: userID) { success in
+                    if success {
+                        print("User logged in!")
+                        
+                        //return to app
+                        DispatchQueue.main.asyncAfter(deadline: .now() + 0.5, execute: {
+                            self.presentationMode.wrappedValue.dismiss()
+                        })
+                        self.presentationMode.wrappedValue.dismiss()
+                        
+                    } else {
+                        print("Error logging in")
+                        self.showError.toggle()
+                    }}
+                
+            } else {
+                //ERROR
+                print("Error in database")
+                
+            }
+        }
     }
     struct HapticFeedback: UIViewRepresentable {
         typealias UIViewType = UIView
@@ -84,8 +117,9 @@ struct OnboardingViewPart2: View {
 }
 
 struct OnboardingViewPart2_Previews: PreviewProvider {
+    @State static var teststring: String = "Test"
     static var previews: some View {
-        OnboardingViewPart2()
+        OnboardingViewPart2(displayName: $teststring, email: $teststring, providerID: $teststring, provider: $teststring)
             
     }
 }

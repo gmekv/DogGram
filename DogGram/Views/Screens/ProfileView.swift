@@ -40,6 +40,7 @@ struct ProfileView: View {
         )
         .sheet(isPresented: $showSettings, content: {
             SettingsView()
+                .preferredColorScheme(colorScheme)
         })
     }}
 
