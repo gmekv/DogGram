@@ -5,6 +5,7 @@
 //  Created by Giorgi Meqvabishvili on 04.05.23.
 //
 
+
 import SwiftUI
 
 struct PostImageView: View {
@@ -15,6 +16,13 @@ struct PostImageView: View {
     @State var captionText: String = ""
     @Binding var imageSelected: UIImage
     
+    @AppStorage(CurrentUserDefaults.userID) var currentUserID: String?
+    @AppStorage(CurrentUserDefaults.displayName) var currentUserDisplayName: String?
+    
+    
+    // Alert
+    @State var showAlert: Bool = false
+    @State var postUploadedSuccessfully: Bool = false
     
     var body: some View {
         VStack(alignment: .center, spacing: 0, content: {
@@ -67,6 +75,9 @@ struct PostImageView: View {
                 .accentColor(colorScheme == .light ? Color.MyTheme.yellowColor : Color.MyTheme.purpleColor)
                 
             })
+            .alert(isPresented: $showAlert) { () -> Alert in
+                getAlert()
+            }
             
         })
 
@@ -76,6 +87,30 @@ struct PostImageView: View {
     
     func postPicture() {
         print("POST PICTURE TO DATABASE HERE")
+        
+        guard let userID = currentUserID, let displayName = currentUserDisplayName else {
+            print("Error getting userID or displayname while posting image")
+            return
+        }
+        
+        DataService.instance.uploadPost(image: imageSelected, caption: captionText, displayName: displayName, userID: userID) { (success) in
+            self.postUploadedSuccessfully = success
+            self.showAlert.toggle()
+        }
+    }
+    
+    func getAlert() -> Alert {
+        
+        if postUploadedSuccessfully {
+            
+            return Alert(title: Text("Successfully uploaded post! 🥳"), message: nil, dismissButton: .default(Text("OK"), action: {
+                self.presentationMode.wrappedValue.dismiss()
+            }))
+            
+        } else {
+            return Alert(title: Text("Error uploading post 😭"))
+        }
+        
     }
     
 }

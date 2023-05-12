@@ -53,6 +53,7 @@ struct OnboardingView: View {
             })
       
 
+            
             Button(action: {
                 presentationMode.wrappedValue.dismiss()
             }, label: {

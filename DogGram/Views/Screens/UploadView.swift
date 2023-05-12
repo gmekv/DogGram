@@ -5,6 +5,7 @@
 //  Created by Giorgi Meqvabishvili on 04.05.23.
 //
 
+
 import SwiftUI
 import UIKit
 
@@ -83,6 +84,6 @@ struct UploadView: View {
 struct UploadView_Previews: PreviewProvider {
     static var previews: some View {
         UploadView()
-            .preferredColorScheme(.dark)
+            .preferredColorScheme(.light)
     }
 }

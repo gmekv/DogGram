@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5200D8BD2A0C0CF200E056A9 /* AnalyticsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5200D8BC2A0C0CF200E056A9 /* AnalyticsService.swift */; };
+		5200D8BF2A0C0D4200E056A9 /* LazyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5200D8BE2A0C0D4200E056A9 /* LazyView.swift */; };
 		521CE13B2A09062800756CC7 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 521CE13A2A09062800756CC7 /* FirebaseAnalytics */; };
 		521CE13D2A09062800756CC7 /* FirebaseAnalyticsOnDeviceConversion in Frameworks */ = {isa = PBXBuildFile; productRef = 521CE13C2A09062800756CC7 /* FirebaseAnalyticsOnDeviceConversion */; };
 		521CE13F2A09062800756CC7 /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 521CE13E2A09062800756CC7 /* FirebaseAnalyticsSwift */; };
@@ -29,6 +31,8 @@
 		521CE1612A09062800756CC7 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 521CE1602A09062800756CC7 /* FirebaseStorage */; };
 		521CE1632A09062800756CC7 /* FirebaseStorageCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 521CE1622A09062800756CC7 /* FirebaseStorageCombine-Community */; };
 		521CE1672A09157500756CC7 /* GoogleSignInButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521CE1662A09157500756CC7 /* GoogleSignInButton.swift */; };
+		525404342A0E4D3B00B1F4F9 /* DogImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525404332A0E4D3B00B1F4F9 /* DogImageView.swift */; };
+		5254044A2A0E622B00B1F4F9 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 525404492A0E622B00B1F4F9 /* SDWebImageSwiftUI */; };
 		52567FEC2A0246B6004C5FFB /* DogGramApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52567FEB2A0246B6004C5FFB /* DogGramApp.swift */; };
 		52567FEE2A0246B6004C5FFB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52567FED2A0246B6004C5FFB /* ContentView.swift */; };
 		52567FF02A0246B8004C5FFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52567FEF2A0246B8004C5FFB /* Assets.xcassets */; };
@@ -70,8 +74,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5200D8BC2A0C0CF200E056A9 /* AnalyticsService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnalyticsService.swift; sourceTree = "<group>"; };
+		5200D8BE2A0C0D4200E056A9 /* LazyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LazyView.swift; sourceTree = "<group>"; };
 		521CE1662A09157500756CC7 /* GoogleSignInButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoogleSignInButton.swift; sourceTree = "<group>"; };
 		5240E5C62A0823C800BA3C47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		525404332A0E4D3B00B1F4F9 /* DogImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogImageView.swift; sourceTree = "<group>"; };
 		52567FE82A0246B6004C5FFB /* DogGram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DogGram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52567FEB2A0246B6004C5FFB /* DogGramApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogGramApp.swift; sourceTree = "<group>"; };
 		52567FED2A0246B6004C5FFB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -127,6 +134,7 @@
 				521CE14F2A09062800756CC7 /* FirebaseFunctions in Frameworks */,
 				521CE14B2A09062800756CC7 /* FirebaseFirestore in Frameworks */,
 				521CE1492A09062800756CC7 /* FirebaseDatabaseSwift in Frameworks */,
+				5254044A2A0E622B00B1F4F9 /* SDWebImageSwiftUI in Frameworks */,
 				521CE1552A09062800756CC7 /* FirebaseInAppMessagingSwift-Beta in Frameworks */,
 				521CE14D2A09062800756CC7 /* FirebaseFirestoreSwift in Frameworks */,
 				521CE15D2A09062800756CC7 /* FirebaseRemoteConfig in Frameworks */,
@@ -227,6 +235,7 @@
 				52F905C52A06ADDE00FB4777 /* LikeAnimationView.swift */,
 				5256800E2A02F2DC004C5FFB /* MessageView.swift */,
 				525680142A0399BB004C5FFB /* CarouselView.swift */,
+				525404332A0E4D3B00B1F4F9 /* DogImageView.swift */,
 				521CE1662A09157500756CC7 /* GoogleSignInButton.swift */,
 				525680162A03A9DA004C5FFB /* ImageGridView.swift */,
 				5256801A2A03EF6C004C5FFB /* ImagePicker.swift */,
@@ -241,6 +250,8 @@
 			isa = PBXGroup;
 			children = (
 				52567FFF2A027581004C5FFB /* Extensions.swift */,
+				529F5EE42A096E0D00103274 /* Enums & Structs.swift */,
+				5200D8BE2A0C0D4200E056A9 /* LazyView.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -267,8 +278,8 @@
 			isa = PBXGroup;
 			children = (
 				5271775C2A090091009C9A9F /* AuthService.swift */,
-				529F5EE42A096E0D00103274 /* Enums & Structs.swift */,
 				5271775E2A090094009C9A9F /* DataService.swift */,
+				5200D8BC2A0C0CF200E056A9 /* AnalyticsService.swift */,
 			);
 			path = Firebase;
 			sourceTree = "<group>";
@@ -336,6 +347,7 @@
 				521CE15E2A09062800756CC7 /* FirebaseRemoteConfigSwift */,
 				521CE1602A09062800756CC7 /* FirebaseStorage */,
 				521CE1622A09062800756CC7 /* FirebaseStorageCombine-Community */,
+				525404492A0E622B00B1F4F9 /* SDWebImageSwiftUI */,
 			);
 			productName = DogGram;
 			productReference = 52567FE82A0246B6004C5FFB /* DogGram.app */;
@@ -368,6 +380,7 @@
 			packageReferences = (
 				5271773E2A08DE6E009C9A9F /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
 				521CE1392A09062800756CC7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				525404482A0E622B00B1F4F9 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
 			);
 			productRefGroup = 52567FE92A0246B6004C5FFB /* Products */;
 			projectDirPath = "";
@@ -409,6 +422,7 @@
 				525680002A027581004C5FFB /* Extensions.swift in Sources */,
 				525680092A02C59E004C5FFB /* PostArrayObject.swift in Sources */,
 				525680042A027757004C5FFB /* PostView.swift in Sources */,
+				525404342A0E4D3B00B1F4F9 /* DogImageView.swift in Sources */,
 				525680132A039712004C5FFB /* BrowseView.swift in Sources */,
 				521CE1672A09157500756CC7 /* GoogleSignInButton.swift in Sources */,
 				52F905CF2A07DDCD00FB4777 /* SignInWithApple.swift in Sources */,
@@ -421,8 +435,10 @@
 				5256800D2A02E28F004C5FFB /* CommentsView.swift in Sources */,
 				529F5EE52A096E0D00103274 /* Enums & Structs.swift in Sources */,
 				52AF304E2A05233D00E8EC59 /* ProfileHeaderView.swift in Sources */,
+				5200D8BF2A0C0D4200E056A9 /* LazyView.swift in Sources */,
 				525680192A03C8A6004C5FFB /* UploadView.swift in Sources */,
 				52F905C02A0665DE00FB4777 /* OnboardingView.swift in Sources */,
+				5200D8BD2A0C0CF200E056A9 /* AnalyticsService.swift in Sources */,
 				5256801B2A03EF6C004C5FFB /* ImagePicker.swift in Sources */,
 				525680152A0399BB004C5FFB /* CarouselView.swift in Sources */,
 				527177612A090094009C9A9F /* DataService.swift in Sources */,
@@ -487,7 +503,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -541,7 +557,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -649,6 +665,14 @@
 			requirement = {
 				kind = upToNextMajorVersion;
 				minimumVersion = 10.0.0;
+			};
+		};
+		525404482A0E622B00B1F4F9 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
 			};
 		};
 		5271773E2A08DE6E009C9A9F /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
@@ -766,6 +790,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 521CE1392A09062800756CC7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = "FirebaseStorageCombine-Community";
+		};
+		525404492A0E622B00B1F4F9 /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 525404482A0E622B00B1F4F9 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
 		};
 		5271773F2A08DE6E009C9A9F /* GoogleSignInSwift */ = {
 			isa = XCSwiftPackageProductDependency;

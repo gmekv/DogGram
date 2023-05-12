@@ -34,7 +34,7 @@ class DataService {
                     DatabasePostField.postID : postID,
                     DatabasePostField.userID : userID,
                     DatabasePostField.displayName : displayName,
-                    DatabasePostField.caption : caption,
+                    DatabasePostField.caption : caption ?? "",
                     DatabasePostField.dateCreated : FieldValue.serverTimestamp(),
                 ]
                 document.setData(postData) { (error) in
