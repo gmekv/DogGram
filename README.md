@@ -3,6 +3,7 @@ App made for sharing dog pictures, following Swiftful Thinking Course. Added cou
 
 Used  Firebase, SwiftUI, SDWebImage.
 
+
 Currently impelemented Apple sign-in, Google/Facebook and email/password signups coming soon.
 <img src="https://user-images.githubusercontent.com/113336356/220339269-c4cb2154-3f58-429e-acf9-85575c779999.png" width="300">
 
